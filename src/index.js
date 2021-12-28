@@ -90,8 +90,13 @@ ReactDOM.render(
       text="myNewtext_4"
       children={<NewComponent1 text="mytext" number={5} />}
     />
-    <NewComponent5 obj={{ text: "text_5" }} />
+    <NewComponent5 obj={{ text: "text_5" }} /> 
     <NewComponent6 obj={{ text: "text_6" }} />
   </>,
   document.getElementById("root")
 );
+/*
+   Bad style:
+  <NewComponent5 obj={{ text: "text_5" }} /> 
+    <NewComponent6 obj={{ text: "text_6" }} /> 
+*/ 
