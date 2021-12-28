@@ -96,7 +96,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 /*
-   Bad style:
+   Bad style: object to property
   <NewComponent5 obj={{ text: "text_5" }} /> 
     <NewComponent6 obj={{ text: "text_6" }} /> 
 */ 
